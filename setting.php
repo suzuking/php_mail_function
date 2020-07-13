@@ -10,3 +10,6 @@ define('SMTP_USER', '');
 
 # SMTP Password
 define('SMTP_PASSWORD', '');
+
+# ログファイルパス
+define('LOG_FILE_PATH', __DIR__ . '/logs/' . date('Y-m-d') . '.log');
